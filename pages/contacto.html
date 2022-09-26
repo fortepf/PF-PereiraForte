@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Roboto:wght@100;300;400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Vicfe - Proyecto Coderhouse</title>
+</head>
+
+<body>
+
+    <header class="fondo-header">
+        <h1><a href="../index.html">VICFE</a></h1>
+
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="menu.html">Menú</a></li>
+                <li><a href="reservas.html">Reservas</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+        <section class="contenedor-contacto">
+
+            <form action="" method="post">
+
+                <h3>Contactanos</h3> <br>
+
+                <div class="contacto-form">
+                    <label for="nombre-usuario">Nombre:</label>
+                    <input type="text" name="nombre-usuario" id="nombre-usuario" placeholder="Nombre" size="60">
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="mail-usuario">Ingrese su mail:</label>
+                    <input type="email" name="mail-usuario" id="mail-usuario" placeholder="Mail" size="60">
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="asuntos-mail">Asunto:</label>
+                    <select name="" id="asuntos-mail">
+                        <option value="reclamo">Reclamo</option>
+                        <option value="finanzas">Finanzas</option>
+                        <option value="sugerencias">Sugerencias</option>
+                        <option value="consultas">Consultas</option>
+                        <option value="otro">Otro</option>
+                    </select>
+                </div>
+
+                <br>
+                <div>
+
+                    <label for="">Su mensaje:</label>
+                    <textarea name="" id="" cols="60" rows="5"></textarea>
+
+                </div>
+                <br>
+                <div>
+                    <label for="archivo-mail">Adjuntar Archivo</label>
+                    <input type="file" name="archivo-mail" id="archivo-mail">
+                </div>
+                <br>
+
+                <div class="botones">
+                    <input type="submit" value="Enviar" class="boton-enviar">
+                    <input type="reset" value="Borrar todo" class="boton-limpiar">
+                </div>
+
+            </form>
+
+        </section>
+    </main>
+    
+    <footer class="fondo-footer">
+
+        <h3 class="titulo-footer">Vicfe</h3>
+
+        <section class="info-footer">
+            <address class="contenedor-footer">
+                <div>
+
+                    <strong>Estamos ubicados en:</strong> <br>
+                    26 de Octubre 1242 <br>
+                    Montevideo, UY <br><br><br><br><br>
+                    <strong> Horario:</strong> L. a V. de 19:00hrs a 23:30hrs<br><br> <br> <br> <br>
+                    <strong>Mail de contacto:</strong> vicfe@gmail.com <br> 
+                    <strong>Celular:</strong> 099123456
+                </div>
+                <div class="mapa-ubic">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.7156997147654!2d-58.43446128420188!3d-34.586059564072166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc945173b3dd7%3A0xe8a347bb55df550c!2sCoderhouse!5e0!3m2!1ses-419!2suy!4v1663107382882!5m2!1ses-419!2suy"
+                        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+
+
+
+            </address>
+
+
+        </section>
+
+        <section class="copyright">
+            <strong>© Copyright</strong> por <strong>Vicfe</strong>.
+        </section>
+
+
+
+    </footer>
+
+</body>
+
+</html>
