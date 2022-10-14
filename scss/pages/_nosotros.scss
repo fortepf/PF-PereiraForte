@@ -1,0 +1,51 @@
+.contenedor-nosotros {
+    height: 85vh;
+    background-color: antiquewhite;
+    font-family: "Roboto", sans-serif;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+
+
+
+    .titulo-nosotros {
+        font-size: 2rem;
+
+
+        .info-nosotros {
+            font-family: "Roboto", sans-serif;
+            text-align: center;
+            font-size: 2.5rem;
+        }
+    }
+}
+
+
+.cocina {
+    background-color: rgba(57, 134, 38, 0.26);
+    font-family: "Roboto", sans-serif;
+    background-size: cover;
+    padding: 30px;
+    display: flex;
+    gap: 100px;
+    overflow: auto;
+    justify-content: center;
+
+
+}
+
+.cocina__titulo {
+    background-color: rgba(127, 255, 212, 0.212);
+    padding: 15px;
+    text-align: center;
+    font-size: 3rem;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    overflow: auto;
+    justify-content: center;
+
+
+}

@@ -1,0 +1,31 @@
+.butn {
+    background-color: brown;
+    border: 1px solid black;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 0.3s;
+    text-decoration: none;
+
+    &:hover {
+        background-color: burlywood;
+        color: black;
+    }
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 45px;
+}
+
+.boton-enviar {
+    padding: 10px 15px;
+}
+
+.boton-limpiar {
+    padding: 10px 15px;
+}

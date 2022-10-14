@@ -1,0 +1,11 @@
+.contenedor-menu {
+    height: 70vh;
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+    background-color: rgb(127, 255, 212, 0.212);
+    align-items: center;
+    overflow: scroll;
+    overflow-y: hidden;
+}
+

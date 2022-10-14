@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+$color-primario: #eeee;
+
+@import "pages/index";
+@import "pages/menu";
+@import "pages/nosotros";
+@import "pages/contacto";
+@import "pages/reservas";
+@import "components/botones";
+@import "components/tarjetas";
+@import "layouts/footer";
+@import "layouts/forms";
+@import "layouts/header";
+
+
+
+
