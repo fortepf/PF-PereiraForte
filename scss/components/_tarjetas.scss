@@ -20,7 +20,6 @@
             padding-top: 10px;
             text-align: center;
             font-size: 2rem;
-            font-family: "Roboto", sans-serif;
             display: flex;
             overflow: auto;
             justify-content: center;
@@ -33,7 +32,6 @@
     padding: 15px;
     text-align: center;
     font-size: 3rem;
-    font-family: "Roboto", sans-serif;
     display: flex;
     overflow: auto;
     justify-content: center;
@@ -46,25 +44,23 @@
     padding: 10px;
     text-align: center;
     font-size: 2rem;
-    font-family: "Roboto Condensed", sans-serif;
-
+}
     .tarjeta {
-        background-color: burlywood;
+        background-color:#d6ccc2;
         border: 2px solid rgb(255, 255, 255);
         width: 300px;
-        height: 520px;
+        height: auto;
         border-radius: 15px;
-        padding: 10px;
+        padding: 20px;
         text-align: center;
-        font-family: "Roboto", sans-serif;
+        display: flex;
+        flex-direction: column;
 
-
+    }
 
         .tarjeta__descrp {
             color: rgb(255, 255, 255);
             text-align: center;
             font-size: 1rem;
-            font-family: "Roboto Condensed", sans-serif;
         }
-    }
-}
+    

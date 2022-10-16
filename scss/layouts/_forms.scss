@@ -1,12 +1,10 @@
 form {
-    border: 1px solid black;
-    padding: 20px;
-
 
     div {
         display: flex;
         justify-content: center;
         text-align: center;
-        gap: 20px;
+        flex-wrap: wrap;
+        
     }
 }

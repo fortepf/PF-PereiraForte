@@ -1,11 +1,18 @@
 .contenedor-menu {
-    height: 70vh;
+    height: 100vh;
     display: flex;
     padding: 10px;
     gap: 10px;
-    background-color: rgb(127, 255, 212, 0.212);
+    background-color:#e3d5ca;
     align-items: center;
     overflow: scroll;
     overflow-y: hidden;
 }
 
+.menu-title {
+    background-color:#e3d5ca ;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    align-items: center;
+}

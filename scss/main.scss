@@ -2,9 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Roboto",sans-serif;
 }
 
-$color-primario: #eeee;
 
 @import "pages/index";
 @import "pages/menu";
@@ -13,10 +13,11 @@ $color-primario: #eeee;
 @import "pages/reservas";
 @import "components/botones";
 @import "components/tarjetas";
+@import "components/carousel";
 @import "layouts/footer";
 @import "layouts/forms";
 @import "layouts/header";
-
+@import "layouts/header-main";
 
 
 

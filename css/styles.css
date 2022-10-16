@@ -2,70 +2,100 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.contenedor-main {
+  height: 50vh;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  background-color: #e3d5ca;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .contenedor-menu {
-  height: 70vh;
+  height: 100vh;
   display: flex;
   padding: 10px;
   gap: 10px;
-  background-color: rgba(127, 255, 212, 0.212);
+  background-color: #e3d5ca;
   align-items: center;
   overflow: scroll;
   overflow-y: hidden;
 }
 
+.menu-title {
+  background-color: #e3d5ca;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  align-items: center;
+}
+
 .contenedor-nosotros {
-  height: 85vh;
-  background-color: antiquewhite;
-  font-family: "Roboto", sans-serif;
-  background-size: cover;
+  height: 120vh;
+  background-color: #e3d5ca;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   overflow: auto;
 }
-.contenedor-nosotros .titulo-nosotros {
+
+.titulo-nosotros {
   font-size: 2rem;
 }
-.contenedor-nosotros .titulo-nosotros .info-nosotros {
-  font-family: "Roboto", sans-serif;
+
+.info-nosotros {
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .cocina {
-  background-color: rgba(57, 134, 38, 0.26);
-  font-family: "Roboto", sans-serif;
+  background-color: #e3d5ca;
   background-size: cover;
-  padding: 30px;
   display: flex;
-  gap: 100px;
+  gap: 300px;
   overflow: auto;
   justify-content: center;
+  padding: 20px;
 }
 
 .cocina__titulo {
-  background-color: rgba(127, 255, 212, 0.212);
+  background-color: #d6ccc2;
   padding: 15px;
   text-align: center;
   font-size: 3rem;
-  font-family: "Roboto", sans-serif;
   display: flex;
   overflow: auto;
   justify-content: center;
 }
 
 .contenedor-contacto {
-  height: 70vh;
+  height: 100vh;
+  background-color: #e3d5ca;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+.contenedor-reservas {
+  height: 100vh;
   background-color: rgb(245, 237, 226);
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   justify-content: center;
   text-align: center;
   padding: 50px;
-  font-family: "Roboto", sans-serif;
 }
 
 .butn {
@@ -120,7 +150,6 @@
   padding-top: 10px;
   text-align: center;
   font-size: 2rem;
-  font-family: "Roboto", sans-serif;
   display: flex;
   overflow: auto;
   justify-content: center;
@@ -131,7 +160,6 @@
   padding: 15px;
   text-align: center;
   font-size: 3rem;
-  font-family: "Roboto", sans-serif;
   display: flex;
   overflow: auto;
   justify-content: center;
@@ -142,38 +170,35 @@
   padding: 10px;
   text-align: center;
   font-size: 2rem;
-  font-family: "Roboto Condensed", sans-serif;
 }
-.tarjeta__titulo .tarjeta {
-  background-color: burlywood;
+
+.tarjeta {
+  background-color: #d6ccc2;
   border: 2px solid rgb(255, 255, 255);
   width: 300px;
-  height: 520px;
+  height: auto;
   border-radius: 15px;
-  padding: 10px;
+  padding: 20px;
   text-align: center;
-  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
 }
-.tarjeta__titulo .tarjeta .tarjeta__descrp {
+
+.tarjeta__descrp {
   color: rgb(255, 255, 255);
   text-align: center;
   font-size: 1rem;
-  font-family: "Roboto Condensed", sans-serif;
 }
 
 bi {
   font-size: 1.5rem;
 }
 
-form {
-  border: 1px solid black;
-  padding: 20px;
-}
 form div {
   display: flex;
   justify-content: center;
   text-align: center;
-  gap: 20px;
+  flex-wrap: wrap;
 }
 
 /*# sourceMappingURL=styles.css.map */
