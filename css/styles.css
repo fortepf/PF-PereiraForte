@@ -89,7 +89,7 @@
 
 .contenedor-reservas {
   height: 100vh;
-  background-color: rgb(245, 237, 226);
+  background-color: #e3d5ca;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -199,6 +199,7 @@ form div {
   justify-content: center;
   text-align: center;
   flex-wrap: wrap;
+  gap: 10px;
 }
 
 /*# sourceMappingURL=styles.css.map */

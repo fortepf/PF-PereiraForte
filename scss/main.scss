@@ -1,11 +1,5 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Roboto",sans-serif;
-}
 
-
+@import "base/reset";
 @import "pages/index";
 @import "pages/menu";
 @import "pages/nosotros";
@@ -17,7 +11,6 @@
 @import "layouts/footer";
 @import "layouts/forms";
 @import "layouts/header";
-@import "layouts/header-main";
 
 
 
