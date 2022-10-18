@@ -1,4 +1,5 @@
 
+
 @import "base/reset";
 @import "pages/index";
 @import "pages/menu";
@@ -12,5 +13,7 @@
 @import "layouts/forms";
 @import "layouts/header";
 
-
+@media (max-width: 800px) {
+    
+}
 
