@@ -1,17 +1,109 @@
 form {
+    padding-top: 80px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
 
     div {
-        display: flex;
+        display: grid;
         justify-content: center;
-        text-align: center;
-        flex-wrap: wrap;
+        align-items: center;
         gap: 15px;
     }
 }
 
-.formularioReservas {
-height: auto;
-width: auto;
+input {
+    line-height: normal;
 }
 
 
+
+
+
+
+input[type='text'],
+input[type='number'],
+input[type='date'],
+[type='email'],
+select,
+textarea {
+    background: none;
+    border: none;
+    border-bottom: solid 2px #474544;
+    color: #474544;
+    font-size: 1.000em;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding: 1rem;
+    margin: 1rem;
+    text-transform: uppercase;
+    width: 100%;
+
+}
+
+input[type='text']:focus,
+[type='number']:focus,
+[type='date']:focus,
+[type='email']:focus,
+textarea:focus {
+    outline: none;
+
+}
+
+.email-usuario {
+    width: 100%;
+}
+
+.mensaje-mail {
+    float: none;
+}
+
+.nombre-usuario {
+    width: 100%;
+}
+
+
+.asuntos-email {
+    width: 50%;
+}
+
+
+@media screen and (max-width: 800px) {
+    .contenedor-contacto {
+        height: 100vh;
+    }
+
+    
+    h2 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .titulo-nosotros {
+        padding-top: 60px;
+    }
+    .formularioReservas{
+        height: 50vh;
+    }
+    .formularioContactos {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nombre-usuario {
+        width: auto;
+    }
+
+    .email-usuario {
+        width: auto;
+    }
+
+    .asuntos-email {
+        width: 50%;
+    }
+
+    textarea {
+        width: 50vh;
+    }
+}

@@ -1,11 +1,10 @@
 .contenedor-reservas {
-    height: 100vh;
-    background-color:#e3d5ca;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    height: 135vh;
+    background-color: $sections;
     justify-content: center;
     text-align: center;
-    padding: 50px;
+    position: relative;
+    padding-top: 40px;
 }
+
 

@@ -3,14 +3,14 @@
     display: flex;
     padding: 10px;
     gap: 10px;
-    background-color:#e3d5ca;
+    background-color: $sections;
     align-items: center;
     overflow: scroll;
     overflow-y: hidden;
 }
 
 .menu-title {
-    background-color:#e3d5ca ;
+    background-color: $sections;
     display: flex;
     justify-content: center;
     padding-top: 20px;
