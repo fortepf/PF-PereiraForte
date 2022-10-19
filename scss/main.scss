@@ -1,5 +1,6 @@
 
 
+@import "utils/variables";
 @import "base/reset";
 @import "pages/index";
 @import "pages/menu";
@@ -13,7 +14,22 @@
 @import "layouts/forms";
 @import "layouts/header";
 
-@media (max-width: 800px) {
-    
+@media (max-width: 815px) {
+    .titulo-nosotros {
+        padding-top: 60px;
+    }
+    .formularioReservas {
+        width: auto;
+
+
+    }
 }
 
+h2 {
+    color: #474544;
+    padding-top: 20px;
+    font-size: 32px;
+    letter-spacing: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}

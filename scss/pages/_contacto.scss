@@ -1,9 +1,100 @@
 .contenedor-contacto {
-    height: 100vh;
-    background-color:#e3d5ca;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    height: 130vh;
+    background-color: #e3d5ca;
     justify-content: center;
     text-align: center;
+    position: relative;
+    padding-top: 40px;
+}
+
+
+
+
+input {
+    line-height: normal;
+}
+
+form {
+    padding-top: 80px;
+}
+
+
+
+
+.email {
+    float: right;
+    width: 25%;
+}
+
+input[type='text'],
+[type='email'],
+select,
+textarea {
+    background: none;
+    border: none;
+    border-bottom: solid 2px #474544;
+    color: #474544;
+    font-size: 1.000em;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding: 1rem;
+    margin: 1rem;
+    text-transform: uppercase;
+    width: 100%;
+
+}
+
+input[type='text']:focus,
+[type='email']:focus,
+textarea:focus {
+    outline: none;
+
+}
+
+.message {
+    float: none;
+}
+
+.name {
+    float: left;
+    width: 25%;
+}
+
+
+.subject {
+    width: 50%;
+}
+
+
+@media screen and (max-width: 815px) {
+    .contenedor-contacto {
+        height: 100vh;
+    }
+
+    h2 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .formularioContactos {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nombre-usuario {
+        width: auto;
+    }
+
+    .email-usuario {
+        width: auto;
+    }
+
+    .asuntos-email {
+        width: 50%;
+    }
+
+    textarea {
+        width: 80%;
+    }
 }

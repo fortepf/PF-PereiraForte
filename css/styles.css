@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
+  font-family: "Quicksand", sans-serif;
 }
 
 .contenedor-main {
@@ -15,6 +15,12 @@
   background-color: #e3d5ca;
   align-items: center;
   flex-wrap: wrap;
+}
+
+.main-info {
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 .contenedor-menu {
@@ -78,15 +84,89 @@
 }
 
 .contenedor-contacto {
-  height: 100vh;
+  height: 130vh;
   background-color: #e3d5ca;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
   justify-content: center;
   text-align: center;
+  position: relative;
+  padding-top: 40px;
 }
 
+input {
+  line-height: normal;
+}
+
+form {
+  padding-top: 80px;
+}
+
+.email {
+  float: right;
+  width: 25%;
+}
+
+input[type=text],
+[type=email],
+select,
+textarea {
+  background: none;
+  border: none;
+  border-bottom: solid 2px #474544;
+  color: #474544;
+  font-size: 1em;
+  font-weight: 400;
+  letter-spacing: 1px;
+  padding: 1rem;
+  margin: 1rem;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+input[type=text]:focus,
+[type=email]:focus,
+textarea:focus {
+  outline: none;
+}
+
+.message {
+  float: none;
+}
+
+.name {
+  float: left;
+  width: 25%;
+}
+
+.subject {
+  width: 50%;
+}
+
+@media screen and (max-width: 815px) {
+  .contenedor-contacto {
+    height: 100vh;
+  }
+  h2 {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .formularioContactos {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
+  .nombre-usuario {
+    width: auto;
+  }
+  .email-usuario {
+    width: auto;
+  }
+  .asuntos-email {
+    width: 50%;
+  }
+  textarea {
+    width: 80%;
+  }
+}
 .contenedor-reservas {
   height: 100vh;
   background-color: #e3d5ca;
@@ -114,19 +194,23 @@
   color: black;
 }
 
-.botones {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  gap: 45px;
+#botonEnviar {
+  background: none;
+  border: solid 2px #474544;
+  color: #474544;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: bold;
+  outline: none;
+  padding: 20px 35px;
+  text-transform: uppercase;
+  transition: all 0.3s;
 }
 
-.boton-enviar {
-  padding: 10px 15px;
-}
-
-.boton-limpiar {
-  padding: 10px 15px;
+#botonEnviar:hover {
+  background: #474544;
+  color: #F2F3EB;
 }
 
 .plato {
@@ -199,7 +283,33 @@ form div {
   justify-content: center;
   text-align: center;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 15px;
+}
+
+.formularioReservas {
+  height: auto;
+  width: auto;
+}
+
+header div img {
+  height: 20vh;
+}
+
+@media (max-width: 815px) {
+  .titulo-nosotros {
+    padding-top: 60px;
+  }
+  .formularioReservas {
+    width: auto;
+  }
+}
+h2 {
+  color: #474544;
+  padding-top: 20px;
+  font-size: 32px;
+  letter-spacing: 20px;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -15,17 +15,21 @@
     }
 }
 
-.botones {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    gap: 45px;
+#botonEnviar {
+    background: none;
+    border: solid 2px #474544;
+    color: #474544;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: bold;
+    outline: none;
+    padding: 20px 35px;
+    text-transform: uppercase;
+    transition: all 0.3s;
 }
 
-.boton-enviar {
-    padding: 10px 15px;
-}
-
-.boton-limpiar {
-    padding: 10px 15px;
+#botonEnviar:hover {
+    background: #474544;
+    color: #F2F3EB;
 }
