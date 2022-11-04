@@ -5,11 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Restaurante Gourmet para toda la familia - 26 de Octubre 1352 - 097123456 - de L. a V. - Reservas de 19:00 a 22:30 hrs - También tenemos Delivery.">
+    <meta name="description"
+        content="Restaurante Gourmet para toda la familia - Claudio Williman 626, 11300. Ubicado dentro del Mercado Williman - de L. a V. - Reservas de 19:00 a 22:30 hrs - Cel. 097123456 - También tenemos Delivery.">
     <link rel="icon" href="/assets/img/iconovicfe.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500&display=swap" rel="stylesheet">>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
@@ -21,7 +22,8 @@
     <header class="navbar navbar-expand-lg p-4 border-bottom">
         <div class="container-fluid d-flex justify-content-around">
 
-            <a class="navbar-brand p-3 fs-1 fw-light" href="../index.html"><img src="/assets/img/iconovicfe.png" alt=""></a>
+            <a class="navbar-brand p-3 fs-1 fw-light" href="../index.html"><img src="/assets/img/iconovicfe.png"
+                    alt=""></a>
             <nav class="navbar navbar-default">
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -50,41 +52,49 @@
                         </li>
                     </ul>
                 </div>
+            </nav>
         </div>
-        </nav>
+
     </header>
 
     <main>
 
         <section class="contenedor-reservas">
 
+            <h2 class="titulo-reservas">Reserva tu mesa</h2>
+
+            <img class="img-reservas" src="/assets/img/sec-reservas.jpg" alt="dos personas viendo una laptop">
+
             <form class="formularioReservas" action="" method="post">
 
-                <h2>Reserva tu mesa</h2> <br>
+
 
                 <div>
-                    
+                    <label for="nombre-reserva"></label>
                     <input type="text" name="nombre-reserva" id="nombre-reserva" placeholder="Nombre">
                 </div>
-                <br>
+
                 <div>
-                    
+                    <label for="cel-reserva"></label>
                     <input type="number" name="cel-reserva" id="cel-reserva" placeholder="Celular">
                 </div>
-                <br>
+
                 <div>
-                    
+                    <label for="mail-reserva"></label>
                     <input type="email" name="mail-reserva" id="mail-reserva" placeholder="Mail">
                 </div>
-                <br>
+
                 <div>
-                    <label for="personas-reserva">Cantidad de personas:</label>
+                    <label for="personas-reserva"></label>
                     <input type="number" name="personas-reserva" id="personas-reserva" placeholder="Número de personas">
                 </div>
-                <br>
+
                 <div>
                     <label for="fecha-reserva">Fecha:</label>
                     <input type="date" name="fecha-reserva" id="fecha-reserva">
+                </div>
+
+                <div>
                     <label for="horario-reserva">Hora:</label>
                     <select name="horario-reserva" id="horario-reserva">
                         <option value="19-00-reserva">19:00</option>
@@ -97,25 +107,20 @@
                         <option value="22-30-reserva">22:30</option>
                     </select>
                 </div>
-                <br>
-                <div>
-                    <label for="">Comentarios:</label>
 
+                <div class="comentario-reserva">
+                    <label for="comentario-reserva"></label>
+                    <textarea name="comentario-reserva" placeholder="Algún comentario a tener en cuenta"
+                        id="comentario-reserva" cols="60" rows="5" required></textarea>
                 </div>
-                <br>
-                <div>
-                    <textarea name="" id=""></textarea>
-                </div>
-                <br>
-                <div class="boton-enviar">
+
+                <div class="boton-reserva">
+                    <label for="botonEnviar"></label>
                     <input type="submit" value="Enviar" id="botonEnviar" />
-                  </div>
+                </div>
 
             </form>
-
         </section>
-
-
     </main>
 
 

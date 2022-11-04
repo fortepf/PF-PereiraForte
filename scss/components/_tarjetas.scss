@@ -13,13 +13,13 @@
 
     .plato__img {
         border: 1px solid black;
+        object-fit: contain;
 
 
         .menu-title {
             background-color: rgb(127, 255, 212, 0.212);
-            padding-top: 10px;
             text-align: center;
-            font-size: 2rem;
+            font-size: 1rem;
             display: flex;
             overflow: auto;
             justify-content: center;
@@ -27,40 +27,64 @@
     }
 }
 
-.cocina__titulo {
-    background-color: rgba(127, 255, 212, 0.212);
-    padding: 15px;
+.tarjeta {
+    background-color: rgb(172, 171, 108);
+    border: 2px solid rgb(255, 255, 255);
+    width: 325px;
+    height: 650px;
+    border-radius: 15px;
+    padding: 20px;
+    gap: 5px;
     text-align: center;
-    font-size: 3rem;
     display: flex;
-    overflow: auto;
-    justify-content: center;
+    flex-direction: column;
 
 
-}
-
-.tarjeta__titulo {
-    color: rgb(255, 255, 255);
-    padding: 10px;
-    text-align: center;
-    font-size: 2rem;
-}
-    .tarjeta {
-        background-color:#d6ccc2;
-        border: 2px solid rgb(255, 255, 255);
-        width: 300px;
-        height: auto;
-        border-radius: 15px;
-        padding: 20px;
+    .tarjeta__titulo {
+        color: rgb(0, 0, 0);
+        padding: 10px;
         text-align: center;
-        display: flex;
-        flex-direction: column;
-
-    }
+        font-size: 2rem;
+    
+    
 
         .tarjeta__descrp {
             color: rgb(255, 255, 255);
             text-align: center;
             font-size: 1rem;
+            padding: 5px;
+        }
+    } 
+}
+.tarjeta__img {
+    height: 350px;
+}
+
+@media screen and (max-width: 800px) {
+    .tarjeta__titulo {
+        color: rgb(0, 0, 0);
+        padding: 10px;
+        text-align: center;
+        font-size: 2rem;
+    }
+        .tarjeta {
+            background-color: rgb(172, 171, 108);
+            border: 2px solid rgb(255, 255, 255);
+            width: 325px;
+            height: 650px;
+            border-radius: 15px;
+            padding: 20px;
+            gap: 5px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+    
         }
     
+            .tarjeta__descrp {
+                color: rgb(255, 255, 255);
+                text-align: center;
+                font-size: 1rem;
+                padding: 0px;
+            }
+}

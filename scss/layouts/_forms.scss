@@ -1,24 +1,15 @@
 form {
-    padding-top: 80px;
-    display: grid;
-    justify-content: center;
-    align-items: center;
-
     div {
         display: grid;
-        justify-content: center;
         align-items: center;
-        gap: 15px;
+        justify-items: center;
+        gap: 10px;
     }
 }
 
 input {
     line-height: normal;
 }
-
-
-
-
 
 
 input[type='text'],
@@ -31,8 +22,7 @@ textarea {
     border: none;
     border-bottom: solid 2px #474544;
     color: #474544;
-    font-size: 1.000em;
-    font-weight: 400;
+    font-size: 1rem;
     letter-spacing: 1px;
     padding: 1rem;
     margin: 1rem;
@@ -52,19 +42,51 @@ textarea:focus {
 
 .email-usuario {
     width: 100%;
+    justify-content: center;
 }
 
 .mensaje-mail {
     float: none;
+    justify-content: center;
 }
 
 .nombre-usuario {
     width: 100%;
+    justify-content: center;
 }
 
 
-.asuntos-email {
-    width: 50%;
+.asuntos-mail {
+    width: 100%;
+    justify-content: center;
+}
+
+.formularioReservas {
+    display: grid;
+    justify-items: center;
+}
+
+#nombre-reserva {
+    width: 100%;
+    grid-column: 1/3;
+}
+
+#mail-reserva {
+    width: 100%;
+}
+
+#personas-reserva {
+    width: 100%;
+}
+
+#cel-reserva {
+    width: 100%;
+}
+
+
+.comentario-reserva {
+    width: 100%;
+    grid-column: 1/3;
 }
 
 
@@ -73,18 +95,13 @@ textarea:focus {
         height: 100vh;
     }
 
-    
-    h2 {
-        padding-left: 15px;
-        padding-right: 15px;
+    .formularioReservas {
+        width: 375px;
+        gap: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
     }
 
-    .titulo-nosotros {
-        padding-top: 60px;
-    }
-    .formularioReservas{
-        height: 50vh;
-    }
     .formularioContactos {
         display: grid;
         align-items: center;
@@ -92,18 +109,22 @@ textarea:focus {
     }
 
     .nombre-usuario {
-        width: auto;
+        width: 375px;
     }
 
     .email-usuario {
-        width: auto;
+        width: 375px;
     }
 
-    .asuntos-email {
-        width: 50%;
+    .asuntos-mail {
+        width: 375px;
+    }
+
+    .mensaje-mail {
+        width: 375px;
     }
 
     textarea {
-        width: 50vh;
+        width: 75%;
     }
 }

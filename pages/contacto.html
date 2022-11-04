@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Restaurante Gourmet para toda la familia - 26 de Octubre 1352 - 097123456 - de L. a V. - Reservas de 19:00 a 22:30 hrs - También tenemos Delivery.">
+    <meta name="description"
+        content="Restaurante Gourmet para toda la familia - Claudio Williman 626, 11300. Ubicado dentro del Mercado Williman - de L. a V. - Reservas de 19:00 a 22:30 hrs - Cel. 097123456 - También tenemos Delivery.">
     <link rel="icon" href="/assets/img/iconovicfe.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -53,44 +54,50 @@
         </div>
         </nav>
     </header>
-<main>
-    <section class="contenedor-contacto">
-        <h2>Contactanos</h2>
+    <main>
+        <section class="contenedor-contacto">
+            <h2 class="titulo-contacto">Contactanos</h2>
+
+                
+            <form class="formularioContactos" action="#" method="post" id="formularioContactos">
+
+                <div class="nombre-usuario">
+                    <label for="nombre-usuario"></label>
+                    <input type="text" placeholder="Nombre" name="nombre-usuario" id="nombre-usuario" required>
+                </div>
+
+                <div class="email-usuario">
+                    <label for="email-usuario"></label>
+                    <input type="email" placeholder="Tu Email" name="email-usuario" id="email-usuario" required>
+                </div>
+
+                <div class="asuntos-mail">
+                    <label for="asuntos-mail"></label>
+                    <select placeholder="Asunto" name="asuntos-mail" id="asuntos-mail" required>
+                        <option>Reclamo</option>
+                        <option>Finanzas</option>
+                        <option>Sugerencias</option>
+                        <option>Consultas</option>
+                        <option>Otro</option>
+                    </select>
+                </div>
+
+                <div class="mensaje-mail">
+                    <label for="mensaje-mail"></label>
+                    <textarea name="mensaje-mail" placeholder="Su mensaje" id="mensaje-mail" cols="60" rows="5"
+                        required></textarea>
+                </div>
+
+                <div class="boton-enviar">
+                    <label for="botonEnviar"></label>
+                    <input type="submit" value="Enviar" id="botonEnviar"/>
+                </div>
+
+            </form>
+
+            <img class="img-contacto" src="/assets/img/restaurante-contacto.jpg" alt="restaurante de fondo y persona sosteniendo platos de comida en el centro">
         
-        <form class="formularioContactos" action="#" method="post" id="formularioContactos">
-
-          <div class="nombre-usuario">
-            <label for="nombre-usuario"></label>
-            <input type="text" placeholder="Nombre" name="nombre-usuario" id="nombre-usuario" required>
-          </div>
-
-          <div class="email-usuario">
-            <label for="email-usuario"></label>
-            <input type="email" placeholder="Tu Email" name="email-usuario" id="email-usuario" required>
-          </div>
-
-          <div class="asuntos-mail">
-            <label for="asuntos-mail"></label>
-            <select placeholder="Asunto" name="asuntos-mail" id="asuntos-mail" required>
-              <option>Reclamo</option>
-              <option>Finanzas</option>
-              <option>Sugerencias</option>
-              <option>Consultas</option>
-              <option>Otro</option>
-            </select>
-          </div>
-
-          <div class="mensaje-mail">
-            <label for="mensaje-mail"></label>
-            <textarea name="mensaje-mail" placeholder="Su mensaje" id="mensaje-mail" cols="60" rows="5" required></textarea>
-          </div>
-
-          <div class="boton-enviar">
-            <input type="submit" value="Enviar" id="botonEnviar" />
-          </div>
-
-        </form>
-      </section>
+        </section>
     </main>
 
     <footer class="d-flex flex-wrap justify-content-center align-items-center gap-5 p-5">

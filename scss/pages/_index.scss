@@ -10,9 +10,22 @@
     flex-wrap: wrap;
 }
 
-.main-info {
-    display: flex;
-    justify-content: center;
+.titulo-main {
+    color: #474544;
+    font-size: 2.5rem;
+    letter-spacing: 15px;
     text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 15px;
 }
 
+.main-info {
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width: 800px) {
+    .titulo-main {
+        letter-spacing: 5px;
+    }
+
+}
