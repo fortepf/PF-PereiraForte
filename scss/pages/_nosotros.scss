@@ -17,13 +17,10 @@
     text-transform: uppercase;
 }
 
-.mapa-nosotros {
-    grid-column: 2/3;
-    grid-row: 2/3;
-    padding-top: 100px;
-    padding-left: 10px;
-    padding-right: 10px;
-    border: solid 1px black;
+iframe {
+    height: 365px;
+    width: 713px;
+    box-shadow: 2px 2px 10px;
 }
 
 .ubic-nosotros {
@@ -72,10 +69,39 @@
     }
 
     .contenedor-nosotros {
+        padding: 20px;
+        padding-bottom: 40px;
         height: auto;
         display: flex;
         flex-direction: column;
     }
 
+    .mapa-nosotros {
+        width: 375px;
+        height: 450px;
+    }
+
+    iframe {
+    height: 400px;
+    width: 355px;
+    }
+
+    .ubic-nosotros {
+        text-align: center;
+        height: 10vh;
+    }
+
+    .info-nosotros {
+        padding-top: 5px;
+        padding-bottom: 30px;
+    }
+
+    .titulo-nosotros {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 10vh;
+    }
 
 }

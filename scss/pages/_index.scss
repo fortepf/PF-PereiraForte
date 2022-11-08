@@ -1,5 +1,5 @@
 .contenedor-main {
-    height: 50vh;
+    height: 25vh;
     width: auto;
     display: flex;
     flex-direction: column;
@@ -17,6 +17,7 @@
     text-align: center;
     text-transform: uppercase;
     padding-bottom: 15px;
+    text-shadow: 2px 2px 15px;
 }
 
 .main-info {
@@ -24,8 +25,24 @@
 }
 
 @media screen and (max-width: 800px) {
+
+    .contenedor-main {
+        height: 55vh;
+        display: flex;
+        flex-direction: column;
+    }
+
     .titulo-main {
         letter-spacing: 5px;
+    }
+
+    .main-info {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .titulo-main {
+        font-size: 2.5rem;
     }
 
 }

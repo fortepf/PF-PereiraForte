@@ -1,18 +1,19 @@
 .contenedor-menu {
-    height: 100vh;
-    display: flex;
-    padding: 10px;
-    gap: 10px;
+    height: auto;
     background-color: $sections;
-    align-items: center;
-    overflow: scroll;
-    overflow-y: hidden;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
 }
 
 .menu-title {
     background-color: $sections;
     display: flex;
-    justify-content: center;
-    padding-top: 20px;
     align-items: center;
+    justify-content: center;
+    height: 15vh;
+    color: #474544;
+    font-size: 35px;
+    letter-spacing: 15px;
+    text-transform: uppercase;
 }
